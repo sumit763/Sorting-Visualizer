@@ -3,3 +3,28 @@ body {
   align-items: center;
   flex-direction: column;
 }
+#mycanvas {
+  border: 2px solid black;
+}
+#init {
+  padding: 10px;
+  font-size: large;
+  background-color: rgb(161, 214, 214);
+  border-radius: 10px;
+}
+#play {
+  padding: 10px;
+  font-size: large;
+  background-color: rgb(110, 110, 161);
+  border-radius: 10px;
+}
+#init:hover {
+  font-size: 20px;
+  background-color: rgb(168, 255, 255);
+  border-radius: 10px;
+}
+#play:hover {
+  font-size: 20px;
+  background-color: rgb(140, 140, 224);
+  border-radius: 10px;
+}
